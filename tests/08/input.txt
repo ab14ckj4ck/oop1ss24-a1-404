@@ -1,0 +1,20 @@
+place 1 4 1
+map
+place 2 1 9
+place 1 3 1
+info
+map
+move 1 2 1 2 2
+move 1 1 2 1 3
+move 1 3 2 3 3
+map
+map
+move 3 1 3 2
+move 1 3 1 3 2
+move 1 9 9 10 10
+move 1 6 9 6 8
+pass
+move 2 1 9 2 9
+pass
+info
+quit

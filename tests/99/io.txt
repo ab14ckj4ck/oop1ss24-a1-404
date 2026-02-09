@@ -1,0 +1,243 @@
+> Welcome to OOPtimal Tactics!
+> Playing maximum of 5 round(s)!
+> 
+> ------------------
+> Round 1/5 starts!
+> ------------------
+> 
+> ------------------
+> Placement Phase
+> ------------------
+>   | 1 | 2 
+> 1 | ~ | ~ 
+> 2 |A 1|A 1
+> 3 |A 1|A 1
+> 4 | ~ |   
+> 5 | ~ |   
+> 6 |   | ~ 
+> 7 |   | ~ 
+> 8 |B 1|B 1
+> 9 |B 1|B 1
+> 
+> Player A, you have 2 chip(s) left, where and how do you want to place your chips?
+?  > 
+< info 1
+> [ERROR] Wrong number of parameters for this command!
+> Player A, you have 2 chip(s) left, where and how do you want to place your chips?
+?  > 
+< info a
+> [ERROR] Wrong number of parameters for this command!
+> Player A, you have 2 chip(s) left, where and how do you want to place your chips?
+?  > 
+< info
+> Player A:
+> You have 2 chip(s) saved!
+> You own 4 field(s)!
+> 
+> Player A, you have 2 chip(s) left, where and how do you want to place your chips?
+?  > 
+< inFO
+> Player A:
+> You have 2 chip(s) saved!
+> You own 4 field(s)!
+> 
+> Player A, you have 2 chip(s) left, where and how do you want to place your chips?
+?  > 
+< INFO
+> Player A:
+> You have 2 chip(s) saved!
+> You own 4 field(s)!
+> 
+> Player A, you have 2 chip(s) left, where and how do you want to place your chips?
+?  > 
+< pass 1
+> [ERROR] Wrong number of parameters for this command!
+> Player A, you have 2 chip(s) left, where and how do you want to place your chips?
+?  > 
+< PASS 1
+> [ERROR] Wrong number of parameters for this command!
+> Player A, you have 2 chip(s) left, where and how do you want to place your chips?
+?  > 
+< pASS
+> Player B, you have 2 chip(s) left, where and how do you want to place your chips?
+?  > 
+< map
+> Player B, you have 2 chip(s) left, where and how do you want to place your chips?
+?  > 
+< MAP
+>   | 1 | 2 
+> 1 | ~ | ~ 
+> 2 |A 1|A 1
+> 3 |A 1|A 1
+> 4 | ~ |   
+> 5 | ~ |   
+> 6 |   | ~ 
+> 7 |   | ~ 
+> 8 |B 1|B 1
+> 9 |B 1|B 1
+> 
+> Player B, you have 2 chip(s) left, where and how do you want to place your chips?
+?  > 
+< place a
+> [ERROR] Wrong number of parameters for this command!
+> Player B, you have 2 chip(s) left, where and how do you want to place your chips?
+?  > 
+< place a 1 8
+> [ERROR] Invalid amount! Must be a number > 0!
+> Player B, you have 2 chip(s) left, where and how do you want to place your chips?
+?  > 
+< place -1 1 8
+> [ERROR] Invalid amount! Must be a number > 0!
+> Player B, you have 2 chip(s) left, where and how do you want to place your chips?
+?  > 
+< place 7 1 8
+> [ERROR] Invalid amount! Must be a number <= chips in player inventory!
+> Player B, you have 2 chip(s) left, where and how do you want to place your chips?
+?  > 
+< place 1 1 7
+> [ERROR] Invalid field!
+> Player B, you have 2 chip(s) left, where and how do you want to place your chips?
+?  > 
+< place 1 a 7
+> [ERROR] Invalid field!
+> Player B, you have 2 chip(s) left, where and how do you want to place your chips?
+?  > 
+< place 1 -1 7
+> [ERROR] Invalid field!
+> Player B, you have 2 chip(s) left, where and how do you want to place your chips?
+?  > 
+< place 1 1 10
+> [ERROR] Invalid field!
+> Player B, you have 2 chip(s) left, where and how do you want to place your chips?
+?  > 
+< place 1 1 8
+>   | 1 | 2 
+> 1 | ~ | ~ 
+> 2 |A 1|A 1
+> 3 |A 1|A 1
+> 4 | ~ |   
+> 5 | ~ |   
+> 6 |   | ~ 
+> 7 |   | ~ 
+> 8 |B 2|B 1
+> 9 |B 1|B 1
+> 
+> Player B, you have 1 chip(s) left, where and how do you want to place your chips?
+?  > 
+< pass
+> ------------------
+> Movement Phase
+> ------------------
+>   | 1 | 2 
+> 1 | ~ | ~ 
+> 2 |A 1|A 1
+> 3 |A 1|A 1
+> 4 | ~ |   
+> 5 | ~ |   
+> 6 |   | ~ 
+> 7 |   | ~ 
+> 8 |B 2|B 1
+> 9 |B 1|B 1
+> 
+> Player B, what do you want to do?
+?  > 
+< place
+> [ERROR] Wrong number of parameters for this command!
+> Player B, what do you want to do?
+?  > 
+< place 1 1 1
+> [ERROR] Entered command is not valid in this phase!
+> Player B, what do you want to do?
+?  > 
+< PLACE 1 1 1
+> [ERROR] Entered command is not valid in this phase!
+> Player B, what do you want to do?
+?  > 
+< move a
+> [ERROR] Wrong number of parameters for this command!
+> Player B, what do you want to do?
+?  > 
+< move
+> [ERROR] Wrong number of parameters for this command!
+> Player B, what do you want to do?
+?  > 
+< MOVE 1 1 1 1 1
+> [ERROR] Invalid origin!
+> Player B, what do you want to do?
+?  > 
+< move a 1 1 1 1
+> [ERROR] Invalid amount! Must be a number > 0!
+> Player B, what do you want to do?
+?  > 
+< move -1 1 1 1 1
+> [ERROR] Invalid amount! Must be a number > 0!
+> Player B, what do you want to do?
+?  > 
+< move 11 1 8 1 9
+> [ERROR] Invalid amount! Must be a number <= chips on origin field!
+> Player B, what do you want to do?
+?  > 
+< move 1 1 a 1 7
+> [ERROR] Invalid origin!
+> Player B, what do you want to do?
+?  > 
+< move 1 1 8 1 a
+> [ERROR] Invalid destination!
+> Player B, what do you want to do?
+?  > 
+< move 1 1 8 1 8
+> [ERROR] Invalid destination!
+> Player B, what do you want to do?
+?  > 
+< move 11 1 8 1 9
+> [ERROR] Invalid amount! Must be a number <= chips on origin field!
+> Player B, what do you want to do?
+?  > 
+< move 1 1 8 1 9
+>   | 1 | 2 
+> 1 | ~ | ~ 
+> 2 |A 1|A 1
+> 3 |A 1|A 1
+> 4 | ~ |   
+> 5 | ~ |   
+> 6 |   | ~ 
+> 7 |   | ~ 
+> 8 |B 1|B 1
+> 9 |B 2|B 1
+> 
+> Player A, what do you want to do?
+?  > 
+< move 1 2 8 2 7
+> [ERROR] Invalid origin!
+> Player A, what do you want to do?
+?  > 
+< move 1 1 3 1 4
+> [ERROR] Invalid destination!
+> Player A, what do you want to do?
+?  > 
+< move 1 1 3 2 4
+>   | 1 | 2 
+> 1 | ~ | ~ 
+> 2 |A 1|A 1
+> 3 |   |A 1
+> 4 | ~ |A 1
+> 5 | ~ |   
+> 6 |   | ~ 
+> 7 |   | ~ 
+> 8 |B 1|B 1
+> 9 |B 2|B 1
+> 
+> Player B, what do you want to do?
+?  > 
+< pass
+> Player A, what do you want to do?
+?  > 
+< movE 1 1 2 1 5
+> [ERROR] Invalid destination!
+> Player A, what do you want to do?
+?  > 
+< QUIT 1
+> [ERROR] Wrong number of parameters for this command!
+> Player A, what do you want to do?
+?  > 
+< QUIT

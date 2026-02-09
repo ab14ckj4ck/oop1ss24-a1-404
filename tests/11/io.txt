@@ -1,0 +1,121 @@
+> Welcome to OOPtimal Tactics!
+> Playing maximum of 2 round(s)!
+> 
+> ------------------
+> Round 1/2 starts!
+> ------------------
+> 
+> ------------------
+> Placement Phase
+> ------------------
+>   | 1 | 2 | 3 | 4 
+> 1 |A 1|A 1|A 1|   
+> 2 |   |   |   |   
+> 3 |   |   |   |   
+> 4 |   |B 1|B 1|B 1
+> 
+> Player A, you have 1 chip(s) left, where and how do you want to place your chips?
+?  > 
+< place 0 0 0
+> [ERROR] Invalid amount! Must be a number > 0!
+> Player A, you have 1 chip(s) left, where and how do you want to place your chips?
+?  > 
+< place 1 0 0
+> [ERROR] Invalid field!
+> Player A, you have 1 chip(s) left, where and how do you want to place your chips?
+?  > 
+< place 0 1 0
+> [ERROR] Invalid amount! Must be a number > 0!
+> Player A, you have 1 chip(s) left, where and how do you want to place your chips?
+?  > 
+< place 0 0 1
+> [ERROR] Invalid amount! Must be a number > 0!
+> Player A, you have 1 chip(s) left, where and how do you want to place your chips?
+?  > 
+< place 0 1 1
+> [ERROR] Invalid amount! Must be a number > 0!
+> Player A, you have 1 chip(s) left, where and how do you want to place your chips?
+?  > 
+< pass
+> Player B, you have 1 chip(s) left, where and how do you want to place your chips?
+?  > 
+< pass
+> ------------------
+> Movement Phase
+> ------------------
+>   | 1 | 2 | 3 | 4 
+> 1 |A 1|A 1|A 1|   
+> 2 |   |   |   |   
+> 3 |   |   |   |   
+> 4 |   |B 1|B 1|B 1
+> 
+> Player B, what do you want to do?
+?  > 
+< pass
+> Player A, what do you want to do?
+?  > 
+< move 0 0 0 0 0
+> [ERROR] Invalid amount! Must be a number > 0!
+> Player A, what do you want to do?
+?  > 
+< move 1 0 0 0 0
+> [ERROR] Invalid origin!
+> Player A, what do you want to do?
+?  > 
+< move 0 1 0 0 0
+> [ERROR] Invalid amount! Must be a number > 0!
+> Player A, what do you want to do?
+?  > 
+< move 0 0 1 0 0 
+> [ERROR] Invalid amount! Must be a number > 0!
+> Player A, what do you want to do?
+?  > 
+< move 0 0 0 1 0
+> [ERROR] Invalid amount! Must be a number > 0!
+> Player A, what do you want to do?
+?  > 
+< move 0 0 0 0 1
+> [ERROR] Invalid amount! Must be a number > 0!
+> Player A, what do you want to do?
+?  > 
+< move 1 1 0 0 0
+> [ERROR] Invalid origin!
+> Player A, what do you want to do?
+?  > 
+< move 0 1 1 0 0
+> [ERROR] Invalid amount! Must be a number > 0!
+> Player A, what do you want to do?
+?  > 
+< move 0 0 1 1 0
+> [ERROR] Invalid amount! Must be a number > 0!
+> Player A, what do you want to do?
+?  > 
+< move 0 0 0 1 1
+> [ERROR] Invalid amount! Must be a number > 0!
+> Player A, what do you want to do?
+?  > 
+< move 1 1 1 0 0
+> [ERROR] Invalid destination!
+> Player A, what do you want to do?
+?  > 
+< move 0 1 1 1 0
+> [ERROR] Invalid amount! Must be a number > 0!
+> Player A, what do you want to do?
+?  > 
+< move 0 0 1 1 1 
+> [ERROR] Invalid amount! Must be a number > 0!
+> Player A, what do you want to do?
+?  > 
+< move 1 1 1 1 0 
+> [ERROR] Invalid destination!
+> Player A, what do you want to do?
+?  > 
+< move 0 1 1 1 1 
+> [ERROR] Invalid amount! Must be a number > 0!
+> Player A, what do you want to do?
+?  > 
+< move 1 1 1 1 1
+> [ERROR] Invalid destination!
+> Player A, what do you want to do?
+?  > 
+< quit 

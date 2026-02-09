@@ -1,0 +1,25 @@
+place 0 0 0
+place 1 0 0
+place 0 1 0
+place 0 0 1
+place 0 1 1
+pass
+pass
+pass
+move 0 0 0 0 0
+move 1 0 0 0 0
+move 0 1 0 0 0
+move 0 0 1 0 0
+move 0 0 0 1 0
+move 0 0 0 0 1
+move 1 1 0 0 0
+move 0 1 1 0 0
+move 0 0 1 1 0
+move 0 0 0 1 1
+move 1 1 1 0 0
+move 0 1 1 1 0
+move 0 0 1 1 1
+move 1 1 1 1 0
+move 0 1 1 1 1
+move 1 1 1 1 1
+quit
